@@ -3,9 +3,7 @@ import React from "react";
 
 const CacheSlice = createSlice({
   name: "cache",
-    initialState: {
-      
-  },
+  initialState: {},
   reducers: {
     cacheResults: (state, action) => {
       return { ...state, ...action.payload };
